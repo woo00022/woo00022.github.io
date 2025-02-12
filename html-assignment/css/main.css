@@ -20,3 +20,6 @@ ul {
 .hobbies :nth-child(odd){
     background-color: rgb(243, 232, 232);
 }
+.navbar {
+    list-style-type: none;
+}
