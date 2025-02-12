@@ -8,6 +8,7 @@ header, footer {
 .site-title {
     color: rgb(42, 42, 85);
 }
+/* Note: I did change the color of the heading! It's just a very dark blue */
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
