@@ -22,4 +22,12 @@ ul {
 }
 .navbar {
     list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(230, 229, 248);
+    border-style: double;
+    border-width: 4px;
+    border-color: rgb(154, 154, 199);
+}
+.navbar:hover {
+    background-color: rgb(244, 226, 199);
 }
