@@ -2,5 +2,11 @@
 
 /* changes background colour */
 body {
-    background-color: #B0D9D1
+    background-color: #B0D9D1;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+    width: 680px;
+    background-color:#DFF2EF;
 }
