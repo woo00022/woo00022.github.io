@@ -40,9 +40,23 @@ article p, div ul {
 }
 
 /* sizes the images correctly */
+ .headerimage {
+    width: 640px;
+ }
 
 
 /* aligns footer ro right */
 footer {
     text-align: right;
+}
+
+/* puts box around form */
+.form {
+    margin: 8px;
+    border: 0.5px solid black;
+    padding: 20px;
+}
+
+form, form h3 {
+    font-size: 12px;
 }
