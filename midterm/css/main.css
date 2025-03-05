@@ -24,6 +24,7 @@ nav ul {
 }
 
 nav li {
+    font-size: 18px;
     display: inline-block;
     width: 190px;
 }
