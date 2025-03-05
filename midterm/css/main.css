@@ -1,5 +1,14 @@
 /* css starts here */
 
+/* unbolds all headings */
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+/* changes body font size */
+
+
+
 /* changes background colour */
 body {
     background-color: #B0D9D1;
