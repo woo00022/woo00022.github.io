@@ -36,7 +36,14 @@ nav a {
 
 /* changes paragraph and ul font size */
 article p, div ul {
-    font-size: 12px;
+    font-size: 10px;
+}
+
+/* floats image to left of the text */
+.img {
+    float: left;
+    clear: right;
+    /* IS THIS RIGHT??? CHECK HERE!!! */
 }
 
 /* sizes the images correctly */
