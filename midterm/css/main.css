@@ -37,6 +37,7 @@ nav a {
 /* changes paragraph and ul font size */
 article p, div ul {
     font-size: 10px;
+    line-height: 13px;
 }
 
 /* floats image to left of the text */
