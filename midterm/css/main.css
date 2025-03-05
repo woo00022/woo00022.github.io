@@ -3,7 +3,7 @@
 /* changes background colour */
 body {
     background-color: #B0D9D1;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* adds wrapper */
@@ -40,10 +40,14 @@ article p, div ul {
 }
 
 /* sizes the images correctly */
- .headerimage {
+ #headerimage {
     width: 640px;
  }
-
+ #bodyimage {
+    width: 160px;
+    margin: 5px;
+    padding: 2px;
+ }
 
 /* aligns footer ro right */
 footer {
