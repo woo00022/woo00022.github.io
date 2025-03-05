@@ -6,7 +6,19 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
+/* adds wrapper */
 .wrapper {
-    width: 680px;
+    width: 640px;
+    margin: 0px 125px;
     background-color:#DFF2EF;
+}
+
+/* centers and decorates nav */
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 190px;
 }
