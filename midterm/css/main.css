@@ -49,11 +49,6 @@ article p, div ul {
     padding: 2px;
  }
 
-/* aligns footer ro right */
-footer {
-    text-align: right;
-}
-
 /* puts box around form */
 .form {
     margin: 8px;
@@ -63,4 +58,9 @@ footer {
 
 form, form h3 {
     font-size: 12px;
+}
+
+/* aligns footer to right */
+footer {
+    text-align: right;
 }
