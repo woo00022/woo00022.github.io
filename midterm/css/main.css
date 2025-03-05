@@ -39,3 +39,9 @@ article p, div ul {
 }
 
 /* sizes the images correctly */
+
+
+/* aligns footer ro right */
+footer {
+    text-align: right;
+}
