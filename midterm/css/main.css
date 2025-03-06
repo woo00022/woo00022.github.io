@@ -38,7 +38,7 @@ nav ul {
 nav li {
     font-size: 16px;
     display: inline-block;
-    width: 190px;
+    margin: 0px 60px;
 }
 
 /* nav color and decor */
@@ -54,11 +54,6 @@ article p, div ul {
 }
 article p {
     margin: 15px;
-}
-
-/* facts ul position FIIIXXXX THIIIIISSSSSSSS*/
-.list {
-    margin: 0;
 }
 
 /* floats image to left of the text */
@@ -111,7 +106,7 @@ form {
     text-align: center;
 }
 
-/* aligns footer to right */ 
+/* aligns footer to right */
 footer {
     margin: 15px;
     padding: 0px 15px 20px 0px;
