@@ -101,6 +101,9 @@ form {
 .textform input {
     width: 550px;
 }
+#message {
+    height: 100px;
+}
 
 /* send button decor */
 .sendbutton {
