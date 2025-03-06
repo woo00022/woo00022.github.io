@@ -74,10 +74,6 @@ article p {
     padding: 2px;
  }
 
-.list {
-   
-}
-
 /* puts box around form */
 .form {
     margin: 8px;
@@ -95,5 +91,8 @@ form {
 
 /* aligns footer to right */
 footer {
+    margin: 15px;
+    padding: 0px 15px 20px 0px;
     text-align: right;
+    font-size: 10px;
 }
