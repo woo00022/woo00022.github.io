@@ -53,6 +53,10 @@ article p, div ul {
     line-height: 13px;
 }
 
+article p {
+    margin: 15px;
+}
+
 /* floats image to left of the text */
 .img {
     float: left;
