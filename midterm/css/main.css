@@ -47,14 +47,18 @@ nav a {
     text-decoration: none;
 }
 
-/* changes paragraph and ul font size */
+/* changes paragraph, ul font size and margin*/
 article p, div ul {
     font-size: 11px;
     line-height: 13px;
 }
-
 article p {
     margin: 15px;
+}
+
+/* facts ul position FIIIXXXX THIIIIISSSSSSSS*/
+.list {
+    margin: 0;
 }
 
 /* floats image to left of the text */
