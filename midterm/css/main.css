@@ -11,16 +11,17 @@ body {
     width: 640px;
     margin: 0px auto;
     background-color:#DFF2EF;
+    position: relative;
 }
 
 /* positions, color and size of h1 */
 h1 {
     position: absolute;
     top: 100px;
-    /* left: 335px; */
-    text-align: center;
+    left: 190px;
     color: white;
     font-size: 40px;
+    
 }
 
 /* unbolds all headings, adds space */
