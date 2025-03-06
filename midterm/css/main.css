@@ -77,8 +77,11 @@ article p, div ul {
 }
 
 /* adjusts form font size */
-form, form h3 {
+form {
     font-size: 12px;
+}
+.form h3 {
+    font-size: 14px;
 }
 
 /* aligns footer to right */
