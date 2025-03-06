@@ -102,7 +102,16 @@ form {
     width: 550px;
 }
 
-/* aligns footer to right */
+/* send button decor */
+.sendbutton {
+    font-size: 8px;
+    width: 40px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* aligns footer to right */ 
 footer {
     margin: 15px;
     padding: 0px 15px 20px 0px;
