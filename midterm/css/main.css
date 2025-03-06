@@ -9,7 +9,7 @@ body {
 /* adds wrapper */
 .wrapper {
     width: 640px;
-    margin: 0px 125px;
+    margin: 0px auto;
     background-color:#DFF2EF;
 }
 
@@ -17,7 +17,8 @@ body {
 h1 {
     position: absolute;
     top: 100px;
-    left: 335px;
+    /* left: 335px; */
+    text-align: center;
     color: white;
     font-size: 40px;
 }
