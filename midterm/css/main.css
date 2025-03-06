@@ -30,26 +30,24 @@ h1, h2, h3 {
     padding: 0px 0px 0px 5px;
 }
 
-/* NAV REL */
+/*-----NAV REL-----*/
 /* centers nav */
 nav ul {
     text-align: center;
 }
-
 /* nav font size, inline position */
 nav li {
     font-size: 16px;
     display: inline-block;
     margin: 0px 60px
 }
-
 /* nav color and decor */
 nav a {
     color: black;
     text-decoration: none;
 }
 
-/* changes paragraph, ul font size and margin*/
+/* changes paragraph, ul font size, line height and margin*/
 article p, div ul {
     font-size: 11px;
     line-height: 13px;
@@ -82,7 +80,7 @@ article p {
     padding: 20px;
 }
 
-/* adjusts form font size */
+/* adjusts form, and form h3 font size */
 form {
     font-size: 12px;
 }
@@ -90,7 +88,7 @@ form {
     font-size: 14px;
 }
 
-/* form label and input adjustments */
+/* form label and input size adjustments */
 .textform label {
     display: block;
     margin: 5px 0px;
