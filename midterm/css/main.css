@@ -59,7 +59,7 @@ article p, div ul {
     /* IS THIS RIGHT??? CHECK HERE!!! */
 }
 
-/* sizes the images correctly */
+/* sizes the images */
  #headerimage {
     width: 640px;
  }
@@ -76,6 +76,7 @@ article p, div ul {
     padding: 20px;
 }
 
+/* adjusts form font size */
 form, form h3 {
     font-size: 12px;
 }
