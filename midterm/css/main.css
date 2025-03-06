@@ -22,9 +22,10 @@ h1 {
     font-size: 40px;
 }
 
-/* unbolds all headings */
+/* unbolds all headings, adds space */
 h1, h2, h3 {
     font-weight: normal;
+    padding: 0px 0px 0px 5px;
 }
 
 /* NAV REL */
@@ -48,7 +49,7 @@ nav a {
 
 /* changes paragraph and ul font size */
 article p, div ul {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 13px;
 }
 
@@ -68,6 +69,10 @@ article p, div ul {
     margin: 5px;
     padding: 2px;
  }
+
+.list {
+   
+}
 
 /* puts box around form */
 .form {
