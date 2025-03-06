@@ -93,6 +93,15 @@ form {
     font-size: 14px;
 }
 
+/* form label and input adjustments */
+.textform label {
+    display: block;
+    margin: 5px 0px;
+}
+.textform input {
+    width: 550px;
+}
+
 /* aligns footer to right */
 footer {
     margin: 15px;
