@@ -17,7 +17,7 @@
                 <li>Team</li>
                 <li>Contact</li>
             </ul>
-            <form action="search" method="get">
+            <form action="X" method="get">
                  <input id="search" type="text" placeholder="Search" required>
                 <button type="submit">submit</button>
             </form>
@@ -89,7 +89,16 @@
     <div class="contact-us">
         <h2>Contact Us</h2>
         <h3>Send us a message</h3>
-        
+        <form action="X" method="post">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" type="text" name="fullname">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+            <label for="message">Message</label>
+            <input id="message" type="text" name="message">
+            
+            <button type="submit">Send</button>
+        </form>
     </div>
     
 </body>
