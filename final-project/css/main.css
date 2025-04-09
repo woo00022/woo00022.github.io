@@ -60,3 +60,18 @@ table {
 }
 
 /* NAV */
+.nav-wrapper {
+    background-color: #222;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+nav  ul  li:nth-child(1) {
+    background-color: #c78c06;
+    color: #222;
+}
+
+nav form 
