@@ -53,3 +53,10 @@ table {
 
 /* CSS Starts Here */
 
+/* centers and aligns everything with a class of .wrapper */
+.wrapper {
+    width: 760px;
+    padding: 10px;
+}
+
+/* NAV */
