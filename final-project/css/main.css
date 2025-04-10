@@ -55,11 +55,12 @@ table {
 
 /* centers and aligns everything with a class of .wrapper */
 .wrapper {
-    width: 760px;
+    width: 640px;
     padding: 10px;
+	margin: 0px auto;
 }
 
-/* NAV */
+/*----NAV----*/
 .nav-wrapper {
     background-color: #222;
 }
@@ -74,7 +75,3 @@ nav a {
 nav  ul  li:nth-child(1) {
     background-color: #c78c06;
 }
-
-
-
-nav form { }
