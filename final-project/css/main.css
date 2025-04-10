@@ -193,3 +193,12 @@ main div button {
  /* ----LOCATION---- */
 
  /* ----FOOTER---- */
+ footer {
+	background-color:#222;
+ }
+ footer p {
+	color:#c78c06;
+ }
+ footer p a {
+	color:#c78c06;
+ }
