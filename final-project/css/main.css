@@ -86,3 +86,19 @@ h1 {
 	font-size: 70px;
 	font-weight: bold;
 }
+
+main div button {
+	width: 35%;
+	height: 60px;
+	font-size: 16px;
+	background-color:#c78c06;
+	border: none;
+}
+
+h2 {
+	font-size: 45px;
+	font-weight: bold;
+}
+h3 {
+
+}
