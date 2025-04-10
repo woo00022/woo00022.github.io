@@ -80,3 +80,9 @@ nav  ul  li:nth-child(1) {
 	width: 90%;
 	height: 25px;
 }
+
+/* ----WELCOME MAIN---- */
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
