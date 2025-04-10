@@ -75,3 +75,8 @@ nav a {
 nav  ul  li:nth-child(1) {
     background-color: #c78c06;
 }
+
+#search {
+	width: 90%;
+	height: 25px;
+}
