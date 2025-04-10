@@ -122,22 +122,51 @@ main div button {
 .digital {
 	background-color:#ffe6ac;
 }
+.digital button {
+	width: 30%;
+	height: 65px;
+	font-size: 18px;
+}
+
 .marketing {
 	background-color:#ffe6ac;
 }
+.marketing button {
+	width: 30%;
+	height: 65px;
+	font-size: 18px;
+}
+
 .video-production {
 	background-color:#ffe6ac;
 }
+.video-production button {
+	width: 30%;
+	height: 65px;
+	font-size: 18px;
+}
+
 .web-development {
 	background-color:#ffe6ac;
 }
+.web-development button {
+	width: 30%;
+	height: 65px;
+	font-size: 18px;
+}
+
 .print {
 	background-color:#ffe6ac;
+}
+.print button {
+	width: 30%;
+	height: 65px;
+	font-size: 18px;
 }
 
 /* ----OUR VISION--- */
 div.our-vision div button {
-	width: 300px;
+	/* width: 300px; */
 }
 
 /* ----OUR TEAM---- */
