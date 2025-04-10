@@ -51,7 +51,7 @@ table {
 
 
 
-/* CSS Starts Here */
+/* -----CSS Starts Here----- */
 
 /* centers and aligns everything with a class of .wrapper */
 .wrapper {
@@ -60,7 +60,7 @@ table {
 	margin: 0px auto;
 }
 
-/* ----GENERAL---- */
+/* ----GENERAL/APPLIES THROUGHOUT---- */
 h2 {
 	font-size: 45px;
 	font-weight: bold;
@@ -69,8 +69,6 @@ h3 {
 	font-size: 30px;
 	font-weight: bold;
 }
-
-
 
 /*----NAV----*/
 .nav-wrapper {
@@ -87,10 +85,17 @@ nav a {
 nav  ul  li:nth-child(1) {
     background-color: #c78c06;
 }
+nav ul li:nth-child(1) a {
+	color:#222;
+}
 
 #search {
 	width: 90%;
 	height: 25px;
+}
+
+nav form button {
+	/* EDITS HERE */
 }
 
 /* ----WELCOME MAIN---- */
