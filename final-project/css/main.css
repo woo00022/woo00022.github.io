@@ -64,14 +64,17 @@ table {
     background-color: #222;
 }
 
-nav {
+nav a {
     text-align: center;
+	text-decoration: none;
+	color:#c78c06;
     
 }
 
 nav  ul  li:nth-child(1) {
     background-color: #c78c06;
-    color: #222;
 }
 
-nav form 
+
+
+nav form { }
