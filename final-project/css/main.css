@@ -169,3 +169,19 @@ main div button {
 
 
 /* ----OUR TEAM---- */
+.john {
+	background-color:#ffe6ac;
+}
+/* .john p:nth-child(1) {
+	font-weight: bold;
+} */
+ .john hr {
+	color:#c78c06;
+ }
+
+ .bob {
+	background-color:#ffe6ac;
+ }
+ .bob hr {
+	color:#c78c06;
+ }
