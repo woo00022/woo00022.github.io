@@ -60,6 +60,18 @@ table {
 	margin: 0px auto;
 }
 
+/* ----GENERAL---- */
+h2 {
+	font-size: 45px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
 /*----NAV----*/
 .nav-wrapper {
     background-color: #222;
@@ -95,11 +107,3 @@ main div button {
 	border: none;
 }
 
-h2 {
-	font-size: 45px;
-	font-weight: bold;
-}
-h3 {
-	font-size: 30px;
-	font-weight: bold;
-}
