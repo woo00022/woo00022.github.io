@@ -112,3 +112,32 @@ main div button {
 	border: none;
 }
 
+/* ----ABOUT US---- */
+.about-us {
+	background-color:#ffe6ac;
+}
+
+/* ----OUR SERVICES--- */
+
+.digital {
+	background-color:#ffe6ac;
+}
+.marketing {
+	background-color:#ffe6ac;
+}
+.video-production {
+	background-color:#ffe6ac;
+}
+.web-development {
+	background-color:#ffe6ac;
+}
+.print {
+	background-color:#ffe6ac;
+}
+
+/* ----OUR VISION--- */
+div.our-vision div button {
+	width: 300px;
+}
+
+/* ----OUR TEAM---- */
