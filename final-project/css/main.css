@@ -132,6 +132,10 @@ h1 {
 	font-weight: bold;
 }
 
+#welcome-background {
+	width: 640px;
+}
+
 main div button {
 	width: 35%;
 	height: 60px;
