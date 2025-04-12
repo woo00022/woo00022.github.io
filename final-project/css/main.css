@@ -84,11 +84,9 @@ nav a {
     text-align: center;
 	text-decoration: none;
 	color:#c78c06;
-    
 }
 /* spaces out nav headers */
 nav ul li {
-	margin: 10px;
 	padding: 15px;
 }
 /* colours "home" bg*/
@@ -106,7 +104,20 @@ nav ul li:nth-child(1) a {
 }
 
 nav form button {
-	/* EDITS HERE */
+	background-color: transparent;
+	border-color:#c78c06;
+	border-style: solid;
+}
+
+.fa-solid {
+	background-color:#222;
+	margin: 0, auto;
+	padding: 3px;
+}
+
+.fa-magnifying-glass {
+	color: #c78c06;
+	font-size: 18px;
 }
 
 /* ----WELCOME MAIN---- */
