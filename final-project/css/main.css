@@ -53,6 +53,11 @@ table {
 
 /* -----CSS Starts Here----- */
 
+/* Font Change */
+h1, h2, h3, body, footer {
+	font-family: "Open Sans", sans-serif;
+}
+
 /* centers and aligns everything with a class of .wrapper */
 .wrapper {
     width: 640px;
