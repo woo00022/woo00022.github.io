@@ -79,24 +79,29 @@ h3 {
 .nav-wrapper {
     background-color: #222;
 }
+
 /* centers, colours and removes decor from nav headings */
 nav a {
     text-align: center;
 	text-decoration: none;
 	color:#c78c06;
 }
+
 /* spaces out nav headers */
 nav ul li {
 	padding: 15px;
 }
+
 /* colours "home" bg*/
 nav  ul  li:nth-child(1){
     background-color: #c78c06;
 }
+
 /* colours "home" text */
 nav ul li:nth-child(1) a {
 	color:#222;
 }
+
 /* widens search bar */
 #search {
 	width: 90%;
@@ -121,6 +126,7 @@ nav form button {
 }
 
 /* ----WELCOME MAIN---- */
+/* changes h1 size + weight */
 h1 {
 	font-size: 70px;
 	font-weight: bold;
