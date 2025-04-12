@@ -51,14 +51,14 @@ table {
 
 
 
-/* -----CSS Starts Here----- */
+/* -----------CSS STARTS HERE---------- */
 
-/* Font Change */
+/* Website font change */
 h1, h2, h3, body, footer {
 	font-family: "Open Sans", sans-serif;
 }
 
-/* centers and aligns everything with a class of .wrapper */
+/* centers and aligns all elements with a class of .wrapper */
 .wrapper {
     width: 640px;
     padding: 10px;
@@ -79,17 +79,23 @@ h3 {
 .nav-wrapper {
     background-color: #222;
 }
-
+/* centers, colours and removes decor from nav headings */
 nav a {
     text-align: center;
 	text-decoration: none;
 	color:#c78c06;
     
 }
-
-nav  ul  li:nth-child(1) {
+/* spaces out nav headers */
+nav ul li {
+	margin: 10px;
+	padding: 15px;
+}
+/* colours "home" bg*/
+nav  ul  li:nth-child(1){
     background-color: #c78c06;
 }
+/* colours "home" text */
 nav ul li:nth-child(1) a {
 	color:#222;
 }
