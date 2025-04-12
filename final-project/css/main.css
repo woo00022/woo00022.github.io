@@ -114,7 +114,7 @@ nav form button {
 	border-style: solid;
 }
 
-.fa-solid {
+.fa-solid-mag {
 	background-color:#222;
 	margin: 0, auto;
 	padding: 3px;
@@ -136,9 +136,14 @@ h1 {
 	width: 640px;
 }
 
+.fa-caret-right {
+	padding: 10px;
+	font-size: 25px;
+}
+
 main div button {
 	width: 35%;
-	height: 60px;
+	height: 80px;
 	font-size: 16px;
 	background-color:#c78c06;
 	border: none;
