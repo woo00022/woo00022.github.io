@@ -99,7 +99,7 @@ nav  ul  li:nth-child(1){
 nav ul li:nth-child(1) a {
 	color:#222;
 }
-
+/* widens search bar */
 #search {
 	width: 90%;
 	height: 25px;
