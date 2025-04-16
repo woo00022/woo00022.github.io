@@ -148,6 +148,7 @@ h1 {
 
 main div p {
 	color: white;
+	padding-bottom: 10px;
 }
 
 #welcome-background {
