@@ -61,7 +61,7 @@ h1, h2, h3, body, footer {
 /* centers and aligns all elements with a class of .wrapper */
 .wrapper {
     width: 360px;
-    padding: 5px;
+    padding: 8px;
 	margin: 0px auto;
 }
 
@@ -76,6 +76,7 @@ h3 {
 }
 p {
 	font-size: 9px;
+	line-height: 1rem;
 }
 
 /*----NAV----*/
@@ -134,10 +135,19 @@ nav form button {
 }
 
 /* ----WELCOME MAIN---- */
+
 /* changes h1 size + weight */
 h1 {
 	font-size: 38px;
 	font-weight: bold;
+	color: white;
+	line-height: 3rem;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+main div p {
+	color: white;
 }
 
 #welcome-background {
@@ -150,11 +160,20 @@ h1 {
 }
 
 main div button {
-	width: 35%;
-	height: 80px;
+	width: 40%;
+	height: 55px;
 	font-size: 12px;
 	background-color:#c78c06;
 	border: none;
+}
+
+.welcome {
+	
+}
+
+.welcome-background {
+	background-color: rgba(34, 34, 34, .4)
+	
 }
 
 /* ----ABOUT US---- */
