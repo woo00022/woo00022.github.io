@@ -60,7 +60,7 @@ h1, h2, h3, body, footer {
 
 /* centers and aligns all elements with a class of .wrapper */
 .wrapper {
-    max-width: 360px;
+   	width: 360px;
 	margin: 0px auto;
 }
 
@@ -136,6 +136,17 @@ nav form button {
 
 /* ----WELCOME MAIN---- */
 
+/* changes colour and opacity of background */
+.welcome-background {
+	padding: 18px;
+	background-color: rgba(34, 34, 34, .4)
+}
+
+/* background image */
+#welcome-background {
+	width: 360px;
+}
+
 /* changes h1 size + weight, colour */
 h1 {
 	font-size: 38px;
@@ -152,11 +163,6 @@ main div p {
 	padding-bottom: 10px;
 }
 
-/* background image */
-#welcome-background {
-	width: 360px;
-}
-
 /* postion & sizes caret on button */
 .fa-caret-right {
 	padding: 10px;
@@ -170,13 +176,6 @@ main div button {
 	font-size: 12px;
 	background-color:#c78c06;
 	border: none;
-}
-
-/* changes colour and opacity of background */
-.welcome-background {
-	
-	padding: 18px;
-	background-color: rgba(34, 34, 34, .4)
 }
 
 
