@@ -149,12 +149,12 @@ nav form button {
 
 /* changes h1 size + weight, colour */
 h1 {
-	font-size: 38px;
+	font-size: 35px;
 	font-weight: bold;
 	color: white;
 	line-height: 3rem;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 
 /* changes p colour, adds padding to top&bottom */
@@ -171,7 +171,7 @@ main div p {
 
 /* changes h&w, size, colour of button */
 main div button {
-	width: 40%;
+	width: 45%;
 	height: 55px;
 	font-size: 12px;
 	background-color:#c78c06;
@@ -181,8 +181,20 @@ main div button {
 
 /* ----ABOUT US---- */
 .about-us {
+	box-sizing:border-box;
 	background-color:#ffe6ac;
+	padding: 8px;
 }
+
+#about-pic {
+	width: 344px;
+}
+
+.about-us-image {
+	display: flex;
+	justify-content: center;
+}
+
 
 /* ----OUR SERVICES--- */
 
