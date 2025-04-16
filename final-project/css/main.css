@@ -136,7 +136,7 @@ nav form button {
 
 /* ----WELCOME MAIN---- */
 
-/* changes h1 size + weight */
+/* changes h1 size + weight, colour */
 h1 {
 	font-size: 38px;
 	font-weight: bold;
@@ -146,20 +146,24 @@ h1 {
 	padding-bottom: 25px;
 }
 
+/* changes p colour, adds padding to top&bottom */
 main div p {
 	color: white;
 	padding-bottom: 10px;
 }
 
+/* background image */
 #welcome-background {
 	width: 360px;
 }
 
+/* postion & sizes caret on button */
 .fa-caret-right {
 	padding: 10px;
 	font-size: 25px;
 }
 
+/* changes h&w, size, colour of button */
 main div button {
 	width: 40%;
 	height: 55px;
@@ -168,8 +172,10 @@ main div button {
 	border: none;
 }
 
+/* changes colour and opacity of background */
 .welcome-background {
-	padding: 8px;
+	
+	padding: 18px;
 	background-color: rgba(34, 34, 34, .4)
 }
 
