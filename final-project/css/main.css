@@ -67,11 +67,11 @@ h1, h2, h3, body, footer {
 
 /* ----GENERAL/APPLIES THROUGHOUT---- */
 h2 {
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: bold;
 }
 h3 {
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -85,11 +85,12 @@ nav a {
     text-align: center;
 	text-decoration: none;
 	color:#c78c06;
+	font-size: 12px;
 }
 
 /* spaces out nav headers vertically*/
 nav ul li {
-	padding: 15px;
+	padding: 12px;
 }
 
 /* colours "home" bg orange*/
