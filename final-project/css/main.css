@@ -87,12 +87,12 @@ nav a {
 	color:#c78c06;
 }
 
-/* spaces out nav headers */
+/* spaces out nav headers vertically*/
 nav ul li {
 	padding: 15px;
 }
 
-/* colours "home" bg*/
+/* colours "home" bg orange*/
 nav  ul  li:nth-child(1){
     background-color: #c78c06;
 }
