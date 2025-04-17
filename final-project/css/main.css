@@ -382,15 +382,18 @@ div.services h2 {
 	display: block;
 }
 
+/*  adjusts top&bottom padding*/
 .print h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
+/* adjusts bottom padding */
 .print p {
 	padding-bottom: 1rem;
 }
 
+/* colours & formats button */
 .print button {
 	width: 30%;
 	height: 4rem;
