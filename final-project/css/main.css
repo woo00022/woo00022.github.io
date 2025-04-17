@@ -209,9 +209,10 @@ main div button {
 }
 
 /* centers image */
-.about-us-image {
-	display: flex;
-	justify-content: center;
+#about-pic {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 section h2 {
@@ -220,16 +221,27 @@ section h2 {
 }
 
 /* ----OUR SERVICES--- */
-
+.services {
+	padding: 0.5rem;
+}
 
 div.services h2 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
+/* -- DIGITAL -- */
+
+
 .digital {
 	background-color:#ffe6ac;
 }
+
+#digital {
+	width: calc(100% + 1rem);
+	display: block;
+}
+
 .digital button {
 	width: 30%;
 	height: 65px;
