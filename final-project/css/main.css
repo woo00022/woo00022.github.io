@@ -221,8 +221,8 @@ section h2 {
 
 /* increases padding on top & bottom */
 div.services h2 {
+	padding: 1rem;
 	padding-top: 2rem;
-	padding-bottom: 1rem;
 }
 
 /* -- DIGITAL -- */
