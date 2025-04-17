@@ -77,19 +77,19 @@ html{
 
 /* changes all h2 font size & bolds */
 h2 {
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
 /* changes h3 font size & bolds */
 h3 {
-	font-size: 16px;
+	font-size: 1.2rem;
 	font-weight: bold;
 }
 
 /* changes font size and increases line-weight of body text */
 p {
-	font-size: 9px;
+	font-size: 1rem;
 	line-height: 1rem;
 }
 
