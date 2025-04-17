@@ -444,24 +444,38 @@ div.services h2 {
 
 /* ----OUR TEAM---- */
 
-.our-team {
-	padding: 0.5rem;
-}
 
 div.our-team h2 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-.john {
-	background-color:#ffe6ac;
+/* --JOHN-- */
+
+#john {
+	width: 100%;
+	display: block;
 }
-/* .john p:nth-child(1) {
-	font-weight: bold;
-} */
- .john hr {
+
+.john {
+	padding: 0.5rem;
+}
+
+.john-content {
+	background-color:#ffe6ac;
+	padding: 1rem;
+}
+
+ .john-content hr {
 	color:#c78c06;
  }
+
+ .john-content p:nth-child(2) {
+	padding-top: 0.5rem;
+	font-weight: bold;
+ }
+
+/* --BOB-- */
 
  .bob {
 	background-color:#ffe6ac;
