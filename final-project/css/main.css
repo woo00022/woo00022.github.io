@@ -53,6 +53,8 @@ table {
 
 /* -----------CSS STARTS HERE---------- */
 
+/* ----GENERAL/APPLIES THROUGHOUT---- */
+
 /* Website font change */
 h1, h2, h3, body, footer {
 	font-family: "Open Sans", sans-serif;
@@ -64,6 +66,7 @@ h1, h2, h3, body, footer {
 	margin: 0px auto;
 }
 
+/* sets box-sizing for all elements*/
 html{
 	box-sizing: border-box;
   }
@@ -73,26 +76,33 @@ html{
 	box-sizing: inherit;
   }
 
-/* ----GENERAL/APPLIES THROUGHOUT---- */
+/* changes all h2 font size & bolds */
 h2 {
 	font-size: 24px;
 	font-weight: bold;
 }
+
+/* changes h3 font size & bolds */
 h3 {
 	font-size: 16px;
 	font-weight: bold;
 }
+
+/* changes font size and increases line-weight of body text */
 p {
 	font-size: 9px;
 	line-height: 1rem;
 }
 
 /*----NAV----*/
+
+/* colours bg of nav black, adds padding */
 .nav-wrapper {
     background-color: #222;
 	padding: 8px;
 }
 
+/* adjusts logo size */
 #nav-logo {
 	width: 60px;
 }
