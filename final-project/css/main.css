@@ -566,13 +566,31 @@ label[for=message] {
 	color:#c78c06;
 	border-style: none;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
 }
 
-
-
-
  /* ----HOURS OF OPERATION---- */
+
+ .operation-hours {
+	padding: 0.5rem;
+ }
+
+ .operation-hours h3 {
+	padding-bottom: 1rem;
+ }
+
+table {
+	width: 100%
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+th {
+	background-color:#ffe6ac;
+	padding: 1rem;
+}
+
 
  /* ----LOCATION---- */
 
