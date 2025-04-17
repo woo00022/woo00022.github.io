@@ -64,6 +64,15 @@ h1, h2, h3, body, footer {
 	margin: 0px auto;
 }
 
+html{
+	box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+	box-sizing: inherit;
+  }
+
 /* ----GENERAL/APPLIES THROUGHOUT---- */
 h2 {
 	font-size: 24px;
@@ -181,7 +190,6 @@ main div button {
 
 /* ----ABOUT US---- */
 .about-us {
-	box-sizing:border-box;
 	background-color:#ffe6ac;
 	padding: 8px;
 }
