@@ -504,6 +504,25 @@ div.our-team h2 {
 
  /* ----CONTACT US---- */
 
+.contact-us {
+	padding: 0.5rem;
+}
+
+.contact-us h2 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.contact-us h3 {
+	padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
  /* ----HOURS OF OPERATION---- */
 
  /* ----LOCATION---- */
