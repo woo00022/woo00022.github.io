@@ -221,10 +221,6 @@ section h2 {
 }
 
 /* ----OUR SERVICES--- */
-.services {
-	padding: 0.5rem;
-}
-
 div.services h2 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
@@ -235,11 +231,22 @@ div.services h2 {
 
 .digital {
 	background-color:#ffe6ac;
+	margin: 0.5rem;
+	padding: 0.5rem;
 }
 
 #digital {
+	margin: -0.5rem;
 	width: calc(100% + 1rem);
 	display: block;
+}
+
+.digital h3, p {
+	padding: 0.5rem;
+}
+
+.digital h3 {
+	padding-top: 0.5r
 }
 
 .digital button {
