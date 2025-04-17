@@ -344,6 +344,9 @@ div.services h2 {
 	width: 30%;
 	height: 65px;
 	font-size: 12px;
+	background-color:#222;
+	color: white;
+	border: none;
 }
 
 /* --PRINT-- */
@@ -365,10 +368,14 @@ div.services h2 {
 	padding-bottom: 1 rem;
 }
 
+.print p {
+	padding-bottom: 1rem;
+}
+
 .print button {
 	width: 30%;
-	height: 65px;
-	font-size: 12px;
+	height: 4rem;
+
 }
 
 /* ----OUR VISION--- */
