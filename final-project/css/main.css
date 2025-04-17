@@ -412,9 +412,32 @@ div.services h2 {
 
 /* ----OUR VISION--- */
 
+.our-vision h3 {
+	color: white;
+	padding-top: 1.5rem;
+}
 
+.our-vision p {
+	color: white;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+}
 
+.our-vision button {
+	color: white;
+	background-color: rgba(34, 34, 34, 0.7);
+	border-color:#c78c06;
+	border-style: solid;
+	padding: 1rem;
+	width: 10rem;
+}
 
+.our-vision {
+	padding: 0.5rem;
+	background-image: url('../images/vision.jpg');
+	background-size: cover;
+	
+}
 
 
 
