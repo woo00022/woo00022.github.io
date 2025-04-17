@@ -428,8 +428,9 @@ div.services h2 {
 	background-color: rgba(34, 34, 34, 0.7);
 	border-color:#c78c06;
 	border-style: solid;
-	padding: 1rem;
+	padding: 1.5rem;
 	width: 10rem;
+	font-size: 1rem;
 }
 
 .our-vision {
