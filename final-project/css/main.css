@@ -342,11 +342,11 @@ div.services h2 {
 
 .web-development button {
 	width: 30%;
-	height: 65px;
-	font-size: 12px;
+	height: 4rem;
 	background-color:#222;
 	color: white;
 	border: none;
+	font-size: 0.8rem;
 }
 
 /* --PRINT-- */
@@ -375,6 +375,11 @@ div.services h2 {
 .print button {
 	width: 30%;
 	height: 4rem;
+	background-color:#222;
+	color: white;
+	border: none;
+	font-size: 0.8rem;
+
 
 }
 
