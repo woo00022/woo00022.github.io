@@ -95,14 +95,14 @@ p {
 
 /*----NAV----*/
 
-.logo-image {
-	background-color:#c78c06;
+.nav-wrapper {
+	padding: 0.5rem;
+	background-color:#222;
 }
 
-/* colours bg of nav black, adds padding */
-.nav-wrapper {
-    background-color: #222;
-	padding: 0.5rem;
+.logo-bg {
+	background-color:#c78c06;
+	width: 100%;
 }
 
 /* centers, colours, & removes decor from nav headings, changes font size */
