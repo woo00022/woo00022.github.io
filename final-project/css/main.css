@@ -246,8 +246,11 @@ div.services h2 {
 
 .digital button {
 	width: 30%;
-	height: 65px;
-	font-size: 12px;
+	height: 4rem;
+	background-color:#222;
+	color: white;
+	border: none;
+	font-size: 0.8rem;
 }
 
 /* --MARKETING-- */
@@ -269,24 +272,74 @@ div.services h2 {
 	padding-bottom: 1rem;
 }
 
+.marketing p {
+	padding-bottom: 1rem;
+}
+
 .marketing button {
 	width: 30%;
-	height: 65px;
-	font-size: 12px;
+	height: 4rem;
+	background-color:#222;
+	color: white;
+	border: none;
+	font-size: 0.8rem;
 }
+
+/* --VIDEO PRODUCTION-- */
 
 .video-production {
 	background-color:#ffe6ac;
+	margin: 0.5rem;
+	padding: 0.5rem;
 }
+
+#video-production {
+	margin: -0.5rem;
+	width: calc(100% + 1rem);
+	display:block;
+}
+
+.video-production h3 {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.video-production p {
+	padding-bottom: 1rem;
+}
+
 .video-production button {
 	width: 30%;
-	height: 65px;
-	font-size: 12px;
+	height: 4rem;
+	background-color:#222;
+	color: white;
+	border: none;
+	font-size: 0.8rem;
 }
+
+/* --WEB DEVELOPMENT-- */
 
 .web-development {
 	background-color:#ffe6ac;
+	margin: 0.5rem;
+	padding: 0.5rem;
 }
+
+#web-development {
+	margin: -0.5rem;
+	width: calc(100% + 1rem);
+	display: block;
+}
+
+.web-development h3 {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.web-development p {
+	padding-bottom: 1rem;
+}
+
 .web-development button {
 	width: 30%;
 	height: 65px;
