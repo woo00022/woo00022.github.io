@@ -152,9 +152,13 @@ nav form button {
 /* changes colour and opacity of background */
 .welcome-background {
 	padding: 0.5rem;
-	background-color: rgba(34, 34, 34, .4)
+	background-color: rgba(34, 34, 34, 0.4)
 }
 
+.welcome {
+	background-image: url('../images/main-banner.jpg');
+
+}
 
 /* changes h1 size + weight, colour */
 h1 {
