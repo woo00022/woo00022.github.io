@@ -98,7 +98,7 @@ p {
 /* colours bg of nav black, adds padding */
 .nav-wrapper {
     background-color: #222;
-	padding: 8px;
+	padding: 0.5rem;
 }
 
 /* adjusts logo size */
