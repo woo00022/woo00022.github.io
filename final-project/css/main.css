@@ -257,27 +257,32 @@ div.services h2 {
 
 /* --MARKETING-- */
 
+/* colours bg, adds margin & padding */
 .marketing {
 	background-color:#ffe6ac;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 
+/* expands image to full width of wrapper */
 #marketing {
 	margin: -0.5rem;
 	width: calc(100% + 1rem);
 	display: block;
 }
 
+/* adjusts top&bototm padding */
 .marketing h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
+/* adjusts bottom padding */
 .marketing p {
 	padding-bottom: 1rem;
 }
 
+/* colours & formats button */
 .marketing button {
 	width: 30%;
 	height: 4rem;
@@ -289,27 +294,32 @@ div.services h2 {
 
 /* --VIDEO PRODUCTION-- */
 
+/* colours bg, adds margin & padding */
 .video-production {
 	background-color:#ffe6ac;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 
+/* expands image to full width of wrapper */
 #video-production {
 	margin: -0.5rem;
 	width: calc(100% + 1rem);
 	display:block;
 }
 
+/* adjusts top&bottom padding */
 .video-production h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
+/* adjusts bottom padding */
 .video-production p {
 	padding-bottom: 1rem;
 }
 
+/* colours & formats button */
 .video-production button {
 	width: 30%;
 	height: 4rem;
@@ -321,27 +331,32 @@ div.services h2 {
 
 /* --WEB DEVELOPMENT-- */
 
+/* colours bg, adds margin & padding */
 .web-development {
 	background-color:#ffe6ac;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 
+/* expands image to full width of wrapper */
 #web-development {
 	margin: -0.5rem;
 	width: calc(100% + 1rem);
 	display: block;
 }
 
+/* adjusts top&bottom padding */
 .web-development h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
+/* adjusts bottom padding */
 .web-development p {
 	padding-bottom: 1rem;
 }
 
+/* colours & formats button */
 .web-development button {
 	width: 30%;
 	height: 4rem;
@@ -353,12 +368,14 @@ div.services h2 {
 
 /* --PRINT-- */
 
+/* colours bg, adds margin & padding */
 .print {
 	background-color:#ffe6ac;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 
+/* expands image to full width of wrapper */
 #print {
 	margin: -0.5rem;
 	width: calc(100% + 1rem);
