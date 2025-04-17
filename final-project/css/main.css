@@ -468,6 +468,7 @@ div.our-team h2 {
 
  .john-content hr {
 	color:#c78c06;
+	border-style: solid;
  }
 
  .john-content p:nth-child(2) {
