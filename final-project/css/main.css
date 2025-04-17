@@ -716,6 +716,11 @@ td {
 		padding-bototm: 0;
 	}
 
-	
+	/* ----OUR SERVICES---- */
+
+	.services {
+		max-width: 1200px;
+		display: grid;
+	}
 
  }
