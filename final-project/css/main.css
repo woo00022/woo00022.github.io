@@ -116,7 +116,7 @@ nav a {
 
 /* spaces out nav headers vertically*/
 nav ul li {
-	padding: 10px;
+	padding: 0.7rem;
 }
 
 /* colours "home" bg orange*/
@@ -132,7 +132,7 @@ nav ul li:nth-child(1) a {
 /* widens search bar */
 #search {
 	width: 90%;
-	height: 25px;
+	height: 1.5rem;
 }
 
 /* colours search button border, adds transparency */
@@ -158,7 +158,7 @@ nav form button {
 
 /* changes colour and opacity of background */
 .welcome-background {
-	padding: 18px;
+	padding: 0.5rem;
 	background-color: rgba(34, 34, 34, .4)
 }
 
@@ -169,18 +169,18 @@ nav form button {
 
 /* changes h1 size + weight, colour */
 h1 {
-	font-size: 35px;
+	font-size: 2rem;
 	font-weight: bold;
 	color: white;
 	line-height: 3rem;
-	padding-top: 25px;
-	padding-bottom: 20px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 /* changes p colour, adds padding to top&bottom */
 main div p {
 	color: white;
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 }
 
 /* postion & sizes caret on button */
@@ -193,7 +193,7 @@ main div p {
 main div button {
 	width: 45%;
 	height: 55px;
-	font-size: 12px;
+	font-size: 1rem;
 	background-color:#c78c06;
 	border: none;
 }
@@ -204,7 +204,7 @@ main div button {
 /* colours and adds padding to about-us section */
 .about-us {
 	background-color:#ffe6ac;
-	padding: 8px;
+	padding: 0.5rem;
 }
 
 /* adjusts size of about-pic */
