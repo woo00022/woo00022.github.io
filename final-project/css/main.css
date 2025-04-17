@@ -542,6 +542,25 @@ label[for=email] {
 	border-width: 0.5px;
 }
 
+label[for=message] {
+	display: block;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+#message {
+	display: block;
+	width: 100%;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.contact-us-form button {
+	font-size: 1rem;
+	background-color:#222;
+	color:#c78c06;
+	border-style: none;
+}
 
 
 
