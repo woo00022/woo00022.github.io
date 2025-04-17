@@ -95,6 +95,10 @@ p {
 
 /*----NAV----*/
 
+.logo-image {
+	background-color:#c78c06;
+}
+
 /* colours bg of nav black, adds padding */
 .nav-wrapper {
     background-color: #222;
@@ -597,12 +601,24 @@ td {
 
  /* ----LOCATION---- */
 
+ .location {
+	padding: 0.5rem;
+ }
+
+ .location h3 {
+	padding-bottom: 1rem;
+ }
+ 
+
  /* ----FOOTER---- */
  footer {
+	padding: 0.5rem;
 	background-color:#222;
  }
  footer p {
 	color:#c78c06;
+	line-height: 1rem;
+	padding-top: 1rem;
  }
  footer p a {
 	color:#c78c06;
