@@ -531,6 +531,8 @@ label[for=fullname] {
 
 label[for=email] {
 	display: block;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 #email {
@@ -538,7 +540,6 @@ label[for=email] {
 	width: 100%;
 	border-style: solid;
 	border-width: 0.5px;
-	
 }
 
 
