@@ -62,7 +62,6 @@ h1, h2, h3, body, footer {
 
 /* centers and aligns all elements with a class of .wrapper */
 .wrapper {
-   	width: 360px;
 	margin: 0px auto;
 }
 
