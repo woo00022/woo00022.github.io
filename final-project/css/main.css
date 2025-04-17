@@ -624,15 +624,74 @@ td {
 	color:#c78c06;
  }
 
- /* ----MEDIA QUERY FOR SCREENS 760PX+---- */
+ /* ----MEDIA QUERY FOR SCREENS 760PX---- */
 
  @media screen and (min-width: 760px){
+
+	/* GENERAL/APPLIES THROUGHOUT */
+
+	h2 {
+		font-size: 3rem;
+		font-weight: bold;
+	}
 	
-	.wrapper {
-		max-width: 1200px;
+	/* changes h3 font size & bolds */
+	h3 {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+	
+	/* changes font size and increases line-weight of body text */
+	p {
+		font-size: 1rem;
+		line-height: 1.5rem;
 	}
 
+	/* ----NAV---- */
 
+	.nav-wrapper {
+	}
 
+	.logo-bg {
+		background-color:#222;
+		display: flex;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	nav form {
+		display: flex;
+	}
+
+	/* ----WELCOME/MAIN---- */
+
+	.welcome-background {
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	h1 {
+		font-size: 6rem;
+		line-height: 8rem;
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+	}
+
+	main div button {
+		width: 20%;
+		height: 70px;
+		font-size: 1.2rem;
+	}
+	
+	/* ----ABOUT US---- */
+	.about-us-image {
+		
+	}
 
  }
