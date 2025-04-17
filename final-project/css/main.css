@@ -201,19 +201,29 @@ main div button {
 
 
 /* ----ABOUT US---- */
+
+/* colours and adds padding to about-us section */
 .about-us {
 	background-color:#ffe6ac;
 	padding: 8px;
 }
 
+/* adjusts size of about-pic */
 #about-pic {
 	width: 344px;
 }
 
+/* centers image */
 .about-us-image {
 	display: flex;
 	justify-content: center;
 }
+
+section h2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 
 
 /* ----OUR SERVICES--- */
