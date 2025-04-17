@@ -142,10 +142,8 @@ nav form button {
 	border-style: solid;
 }
 
-/*  */
 .fa-solid-mag {
 	background-color:#222;
-	margin: 0, auto;
 	padding: 3px;
 }
 
@@ -162,10 +160,6 @@ nav form button {
 	background-color: rgba(34, 34, 34, .4)
 }
 
-/* adjusts background image size */
-/* #welcome-background {
-	
-} */
 
 /* changes h1 size + weight, colour */
 h1 {
