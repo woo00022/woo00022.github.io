@@ -89,7 +89,7 @@ h3 {
 
 /* changes font size and increases line-weight of body text */
 p {
-	font-size: 1rem;
+	font-size: 0.75rem;
 	line-height: 1rem;
 }
 
