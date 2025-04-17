@@ -718,7 +718,7 @@ td {
 
 	/* ----OUR SERVICES---- */
 
-	.services {
+	.services-grid {
 		max-width: 1200px;
 		display: grid;
 		grid-template-columns: repeat(6, fr);
@@ -737,7 +737,20 @@ td {
 		grid-row: 1 / span 2;
 	}
 
-	
+	.video-production {
+		grid-column: 1 / span 1;
+		grid-row: 3 / span 2;
+	}
+
+	.web-development {
+		grid-column: 2 / span 1;
+		grid-row: 3 / span 2;
+	}
+
+	.print {
+		grid-column: 3 / span 1;
+		grid-row: 3 / span 2;
+	}
 
 
  }
