@@ -444,6 +444,15 @@ div.services h2 {
 
 /* ----OUR TEAM---- */
 
+.our-team {
+	padding: 0.5rem;
+}
+
+div.our-team h2 {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
 .john {
 	background-color:#ffe6ac;
 }
