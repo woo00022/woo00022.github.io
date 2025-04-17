@@ -698,11 +698,12 @@ td {
 		max-width: 1200px;
 		margin: auto;
 		display: flex;
-		align-items: center;
+		justify-content: center;
 	}
 
-	#about-pic {
-		display:flex;
+	.about-us-pic {
+		display: flex;
+		width: 50%;
 	}
 
 	.about-us-content {
