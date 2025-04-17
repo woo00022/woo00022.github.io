@@ -107,7 +107,7 @@ p {
 	width: 60px;
 }
 
-/* centers, colours and removes decor from nav headings */
+/* centers, colours, & removes decor from nav headings, changes font size */
 nav a {
     text-align: center;
 	text-decoration: none;
@@ -136,12 +136,14 @@ nav ul li:nth-child(1) a {
 	height: 18px;
 }
 
+/* colours search button border, adds transparency */
 nav form button {
 	background-color: transparent;
 	border-color:#c78c06;
 	border-style: solid;
 }
 
+/*  */
 .fa-solid-mag {
 	background-color:#222;
 	margin: 0, auto;
@@ -161,7 +163,7 @@ nav form button {
 	background-color: rgba(34, 34, 34, .4)
 }
 
-/* background image */
+/* adjusts background image size */
 #welcome-background {
 	width: 360px;
 }
