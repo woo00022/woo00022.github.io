@@ -241,13 +241,15 @@ div.services h2 {
 	display: block;
 }
 
-.digital h3, p {
-	padding: 0.5rem;
+.digital h3 {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
-.digital h3 {
-	padding-top: 0.5r
+.digital p {
+	padding-bottom: 1rem;
 }
+
 
 .digital button {
 	width: 30%;
