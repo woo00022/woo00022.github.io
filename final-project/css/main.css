@@ -416,18 +416,22 @@ div.services h2 {
 
 /* ----OUR VISION--- */
 
-.our-vision h3 {
+.our-vision-content {
+	padding: 0.5rem;
+}
+
+.our-vision-content h3 {
 	color: white;
 	padding-top: 1.5rem;
 }
 
-.our-vision p {
+.our-vision-content p {
 	color: white;
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
 }
 
-.our-vision button {
+.our-vision-content button {
 	color: white;
 	background-color: rgba(34, 34, 34, 0.7);
 	border-color:#c78c06;
@@ -438,9 +442,9 @@ div.services h2 {
 }
 
 .our-vision {
-	padding: 0.5rem;
 	background-image: url('../images/vision.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 
@@ -832,11 +836,11 @@ td {
 		padding-top: 2rem;
 	}
 
+	/* ----FOOTER--- */
+
 	.footer-content {
 		max-width: 1200px;
 	}
 
-	
-	
 
  }
