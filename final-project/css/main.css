@@ -98,6 +98,8 @@ p {
 .nav-wrapper {
 	padding: 0.5rem;
 	background-color:#222;
+	display: flex;
+	flex-direction: column;
 }
 
 .logo-bg {
@@ -135,7 +137,7 @@ nav ul li:nth-child(1) a {
 }
 
 /* colours search button border, adds transparency */
-nav form button {
+.search-bar button {
 	background-color: transparent;
 	border-color:#c78c06;
 	border-style: solid;
@@ -659,16 +661,15 @@ td {
 		display: flex;
 	}
 
-	nav ul {
-		display: flex;
+	.nav-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center
 	}
 
 	nav ul li {
 		display: inline;
-	}
-
-	nav form {
-		display: flex;
+		line-height: 0rem;
 	}
 
 	/* ----WELCOME/MAIN---- */
