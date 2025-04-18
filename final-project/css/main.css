@@ -529,25 +529,30 @@ div.our-team h2 {
 
  /* ----CONTACT US---- */
 
+ /* adds padding around element */
 .contact-us {
 	padding: 0.5rem;
 }
 
+/* adds padding around heading */
 .contact-heading {
 	padding: 0.5rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 
+/* adds more padding to heading */
 .contact-us h3 {
 	padding-bottom: 1rem;
 }
 
+/* displays 'full name' as block level, adds padding */
 label[for=fullname] {
 	display: block;
 	padding-bottom: 0.5rem;
 }
 
+/* styles 'full name' input box, full width */
 #fullname {
 	display: block;
 	width: 100%;
@@ -557,12 +562,14 @@ label[for=fullname] {
 	height: 1.5rem;
 }
 
+/* displays 'email' as block level, adds padding */
 label[for=email] {
 	display: block;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
 
+/* styles 'email' input box, full width */
 #email {
 	display: block;
 	width: 100%;
@@ -572,12 +579,14 @@ label[for=email] {
 	
 }
 
+/* displays 'message' as block level, adds padding */
 label[for=message] {
 	display: block;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
 
+/* styles 'message' input box, full width & adds height */
 #message {
 	display: block;
 	width: 100%;
@@ -586,6 +595,7 @@ label[for=message] {
 	border-width: 0.5px;
 }
 
+/* styles 'send' button */
 .contact-us-form button {
 	font-size: 1rem;
 	background-color:#222;
@@ -596,52 +606,65 @@ label[for=message] {
 
  /* ----HOURS OF OPERATION---- */
 
+ /* adds padding to element */
  .operation-hours {
 	padding: 0.5rem;
  }
 
+ /* adds padding-bottom to h3 */
  .operation-hours h3 {
 	padding-bottom: 1rem;
  }
 
+ /* increases table width 100%, full */
 table {
 	width: 100%
 }
 
+/*  adds border to table*/
 table, th, td {
 	border: 1px solid;
 }
 
+/* adds bg colour to table heading & padding */
 th {
 	background-color:#ffe6ac;
 	padding: 1rem;
 }
 
+/* adds padding to table data */
 td {
 	padding: 1rem;
 }
 
  /* ----LOCATION---- */
 
+ /* adds padding to element */
  .location {
 	padding: 0.5rem;
  }
 
+ /* adds padding to h3 */
  .location h3 {
 	padding-bottom: 1rem;
  }
  
-
  /* ----FOOTER---- */
+
+ /* colours bg, adds padding */
  footer {
 	padding: 0.5rem;
 	background-color:#222;
  }
+
+ /* colours footer text, adds padding */
  footer p {
 	color:#c78c06;
 	line-height: 1rem;
 	padding-top: 1rem;
  }
+
+ /* colours footer's 'unsplash' link */
  footer p a {
 	color:#c78c06;
  }
