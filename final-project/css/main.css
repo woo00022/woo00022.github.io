@@ -96,8 +96,11 @@ p {
 /*----NAV----*/
 
 .nav-wrapper {
-	padding: 0.5rem;
 	background-color:#222;
+	padding: 0.5rem;
+}
+
+.nav-content {
 	display: flex;
 	flex-direction: column;
 }
@@ -656,22 +659,40 @@ td {
 
 	/* ----NAV---- */
 
-	.logo-bg {
-		background-color:#222;
-		display: flex;
-	}
-
-	.nav-wrapper {
+	.nav-content {
+		max-width: 1200px;
+		margin: auto;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center
 	}
 
-	nav ul li {
-		display: inline;
-		line-height: 0rem;
+	.logo-bg {
+		background-color:#222;
+		padding: 1rem;
+		flex: 1;
 	}
 
+	nav {
+		flex: 1;
+	}
+
+	nav ul li {
+		display: inline;
+	}
+
+	.search-bar {
+		flex: 1;
+		display: flex;
+	}
+
+	#search {
+		width: 80%;
+	}
+
+
+
+	
 	/* ----WELCOME/MAIN---- */
 
 	.welcome-background {
