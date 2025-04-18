@@ -799,6 +799,10 @@ td {
 
 	/* ----CONTACT US---- */
 
+	.contact-heading {
+		max-width: 1200px;
+	}
+
 	.contact-us {
 		max-width: 1200px;
 		display: grid;
@@ -806,19 +810,26 @@ td {
 		grid-template-rows: repeat(3, fr);
 	}
 
-	.contact-heading {
-		max-width: 1200px;
-	}
-
 	.send-message {
 		grid-column: 1 / 2;
 		grid-row: 1 / 2;
 	}
 
+	#message {
+		height: 12rem;
+	}
+
+	.location {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		width: 100%;
+	}
+
 	.operation-hours {
 		grid-column: 1 / 3;
 		grid-row: 2 / 3;
-		}
+	}
+
 
 	
 	
