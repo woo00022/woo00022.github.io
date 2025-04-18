@@ -140,21 +140,16 @@ nav ul li:nth-child(1) a {
 }
 
 /* colours search button border, adds transparency */
-.search-bar button {
+.bttn-connect {
 	background-color: transparent;
-	border-color:#c78c06;
 	border-style: solid;
-}
-
-.fa-solid-mag {
-	background-color:#222;
+	border-color:#c78c06;
 	padding: 3px;
+	font-size: 0.75rem;
+	color:#c78c06;
 }
 
-.fa-magnifying-glass {
-	color: #c78c06;
-	font-size: 18px;
-}
+
 
 /* ----WELCOME MAIN---- */
 
@@ -190,6 +185,7 @@ main div p {
 
 /* postion & sizes caret on button */
 .fa-caret-right {
+	color:#222;
 	padding: 10px;
 	font-size: 25px;
 }
