@@ -757,5 +757,36 @@ td {
 		grid-row: 3 / span 2;
 	}
 
+	/* --OUR VISION-- */
+
+	.our-vision {
+		max-width: 1200px;
+	}
+
+	/* --OUR TEAM-- */
+
+	.our-team {
+		max-width: 1200px;
+	}
+
+	.our-team-grid {
+		display: grid;
+		max-width: 1200px;
+		grid-template-columns: repeat(2, fr);
+		grid-template-rows: repeat(2, fr);
+	}
+
+	.john-photo {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+
+	.john-content {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+
+	.bob-photo
+
 
  }
