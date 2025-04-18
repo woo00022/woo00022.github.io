@@ -459,6 +459,7 @@ div.services h2 {
 
 /* ----OUR TEAM---- */
 
+/* adds padding to h2 */
 div.our-team h2 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
@@ -466,25 +467,30 @@ div.our-team h2 {
 
 /* --JOHN-- */
 
+/* displays image block-level, full width*/
 #john {
 	width: 100%;
 	display: block;
 }
 
+/* adds padding to whole element */
 .john {
 	padding: 0.5rem;
 }
 
+/* adds bg colour, adds padding */
 .john-content {
 	background-color:#ffe6ac;
 	padding: 1rem;
 }
 
+/* colours & changes hz line style */
  .john-content hr {
 	color:#c78c06;
 	border-style: solid;
  }
 
+ /* bolds & adds padding to job position */
  .john-content p:nth-child(2) {
 	padding-top: 0.5rem;
 	font-weight: bold;
@@ -492,25 +498,30 @@ div.our-team h2 {
 
 /* --BOB-- */
 
+/* displays image block-level, full width */
 #bob {
 	width: 100%;
 	display: block;
 }
 
+/* adds padding to whole element */
 .bob {
 	padding: 0.5rem;
 }
 
+/* adds bg colour, adds padding */
 .bob-content {
 	background-color:#ffe6ac;
 	padding: 1rem;
 }
 
+/* colours & changes hz line style */
  .bob-content hr {
 	color:#c78c06;
 	border-style: solid;
  }
 
+ /* bolds & adds padding to job position */
  .bob-content p:nth-child(2) {
 	padding-top: 0.5rem;
 	font-weight: bold;
