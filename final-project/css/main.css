@@ -142,7 +142,7 @@ nav ul li:nth-child(1) a {
 	height: 1.5rem;
 }
 
-/* colours search button border, adds transparency */
+/* styles search bar icon button*/
 .bttn-connect {
 	background-color: transparent;
 	border-style: solid;
@@ -152,16 +152,15 @@ nav ul li:nth-child(1) a {
 	color:#c78c06;
 }
 
-
-
 /* ----WELCOME MAIN---- */
 
-/* changes colour and opacity of background */
+/* colours and adds transparency to bg of 'welcome' */
 .welcome-background {
 	padding: 0.5rem;
 	background-color: rgba(34, 34, 34, 0.7)
 }
 
+/* adds bg image to welcome, padding & bleeds */
 .welcome {
 	background-image: url('../images/main-banner.jpg');
 	background-size: cover;
@@ -170,7 +169,7 @@ nav ul li:nth-child(1) a {
 	padding-bottom: 5rem;
 }
 
-/* changes h1 size + weight, colour */
+/* changes h1 size, weight & colour */
 h1 {
 	font-size: 2rem;
 	font-weight: bold;
@@ -187,7 +186,6 @@ main div p {
 }
 
 /* postion & sizes caret on button */
-
 .bttn-connect-caret {
 	color:#222;
 	font-size: 1rem;
@@ -212,14 +210,12 @@ main div button {
 	padding-bottom: 1.5rem;
 }
 
-/* centers image */
+/* adjusts photo width */
 #about-pic {
 	width: 100%;
-	height: auto;
-	display: block;
 }
 
-/* increases padding on top & bottom */
+/* increases padding on top & bottom of h2*/
 section h2 {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -227,15 +223,17 @@ section h2 {
 
 /* ----OUR SERVICES--- */
 
-/* increases padding on top & bottom */
+/* increases padding on top & bottom of h2*/
 div.services h2 {
 	padding: 0.5rem;
 	padding-top: 2rem;
 } 
 
+/* colours caret icon white (applies on mulitple) */
 .bttn-white-caret {
 	color:white;
 }
+
 /* -- DIGITAL -- */
 
 /* colours bg, adds margin & padding */
@@ -252,13 +250,13 @@ div.services h2 {
 	display: block;
 }
 
-/* adjusts top&bottom padding */
+/* adjusts top&bottom padding of h3*/
 .digital h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-/* adjusts bototm padding */
+/* adjusts bottom padding of p*/
 .digital p {
 	padding-bottom: 1rem;
 }
@@ -289,13 +287,13 @@ div.services h2 {
 	display: block;
 }
 
-/* adjusts top&bototm padding */
+/* adjusts top&bototm padding of h3 */
 .marketing h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-/* adjusts bottom padding */
+/* adjusts bottom padding of p */
 .marketing p {
 	padding-bottom: 1rem;
 }
@@ -326,13 +324,13 @@ div.services h2 {
 	display:block;
 }
 
-/* adjusts top&bottom padding */
+/* adjusts top&bottom padding of h3*/
 .video-production h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-/* adjusts bottom padding */
+/* adjusts bottom padding of p */
 .video-production p {
 	padding-bottom: 1rem;
 }
@@ -363,13 +361,13 @@ div.services h2 {
 	display: block;
 }
 
-/* adjusts top&bottom padding */
+/* adjusts top&bottom padding of h3*/
 .web-development h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-/* adjusts bottom padding */
+/* adjusts bottom padding of p */
 .web-development p {
 	padding-bottom: 1rem;
 }
@@ -400,13 +398,13 @@ div.services h2 {
 	display: block;
 }
 
-/*  adjusts top&bottom padding*/
+/*  adjusts top&bottom padding of h3 */
 .print h3 {
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
 
-/* adjusts bottom padding */
+/* adjusts bottom padding of p */
 .print p {
 	padding-bottom: 1rem;
 }
@@ -423,21 +421,25 @@ div.services h2 {
 
 /* ----OUR VISION--- */
 
+/* adds padding around content */
 .our-vision-content {
 	padding: 0.5rem;
 }
 
+/* colours h3 white */
 .our-vision-content h3 {
 	color: white;
 	padding-top: 1.5rem;
 }
 
+/* colours p white, adds padding */
 .our-vision-content p {
 	color: white;
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
 }
 
+/* colours & formats 'learn more' button */
 .our-vision-content button {
 	color: white;
 	background-color: rgba(34, 34, 34, 0.7);
@@ -448,17 +450,14 @@ div.services h2 {
 	font-size: 1rem;
 }
 
+/* bg image, bleeds full width */
 .our-vision {
 	background-image: url('../images/vision.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	
 }
 
-
-
 /* ----OUR TEAM---- */
-
 
 div.our-team h2 {
 	padding-top: 2rem;
