@@ -764,8 +764,9 @@ td {
 
 	/* --OUR VISION-- */
 
-	.our-vision {
+	.our-vision-content {
 		max-width: 1200px;
+		margin: auto;
 	}
 
 	/* --OUR TEAM-- */
