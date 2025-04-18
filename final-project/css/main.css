@@ -675,18 +675,19 @@ td {
 
 	/* GENERAL/APPLIES THROUGHOUT */
 
+	/* increases h2 font-size */
 	h2 {
 		font-size: 3rem;
 		font-weight: bold;
 	}
 	
-	/* changes h3 font size & bolds */
+	/* increases h3 font size & bolds */
 	h3 {
 		font-size: 2rem;
 		font-weight: bold;
 	}
 	
-	/* changes font size and increases line-weight of body text */
+	/* increasses font size and increases line-weight of body text */
 	p {
 		font-size: 1rem;
 		line-height: 1.5rem;
@@ -694,47 +695,56 @@ td {
 
 	/* ----NAV---- */
 
+	/* aligns nav content in a row, centers*/
 	.nav-content {
 		max-width: 1200px;
 		margin: auto;
 		flex-direction: row;
 		align-items: center;
 	}
-
+	
+	/* changes logo bg color to black, adds padding */
 	.logo-bg {
 		background-color:#222;
 		padding: 1rem;
 		flex: 1;
 	}
 
+	/* gives more space to nav */
 	nav {
 		flex: 2;
 	}
 
+	/* displays nav headings in a row */
 	nav ul li {
 		display: inline;
 	}
 
+	/* increases nav font-size */
 	nav a {
 		font-size: 1rem;
 	}
 
+	/* gives more space to search bar */
 	.search-bar {
 		flex: 2;
 		display: flex;
 	}
 
+	/* increases search bar width */
 	#search {
 		width: 70%;
 	}
 
 	/* ----WELCOME/MAIN---- */
 
+	/* sets max-width, centers*/
 	.welcome-background {
 		max-width: 1200px;
 		margin: auto;
 	}
 
+	/* increases font-size, padding */
 	h1 {
 		font-size: 5.5rem;
 		line-height: 8rem;
@@ -742,6 +752,7 @@ td {
 		padding-bottom: 2rem;
 	}
 
+	/* increases 'connect with us' button & font-size */
 	main div button {
 		width: 20%;
 		height: 70px;
@@ -750,12 +761,14 @@ td {
 	
 	/* ----ABOUT US---- */
 	
+	/* colours bg, adds padding */
 	.about-us {
 		background-color:#ffe6ac;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
 
+	/* sets max-width, centers */
 	.about-us-wrapper {
 		max-width: 1200px;
 		margin: auto;
@@ -763,16 +776,19 @@ td {
 		justify-content: center;
 	}
 
+	/* sets flex, and size (left) */
 	.about-us-pic {
 		display: flex;
 		width: 50%;
 	}
 
+	/* sets flex, and size (right) */
 	.about-us-content {
 		padding: 1rem;
 		width: 50%;
 	}
 
+	/* removes padding from 'about us' h2 */
 	section h2 {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -780,10 +796,12 @@ td {
 
 	/* ----OUR SERVICES---- */
 
+	/* sets max width */
 	.services {
 		max-width: 1200px;
 	}
 
+	/* displays grid, sets max width, centers */
 	.services-grid {
 		max-width: 1200px;
 		display: grid;
@@ -794,26 +812,31 @@ td {
 
 	/* --grid for services-- */
 
+	/* displays top left */
 	.digital {
 		grid-column: 1 / 4;
 		grid-row: 1 / 3;
 	}
 
+	/* displays top right */
 	.marketing {
 		grid-column: 4 / 8;
 		grid-row: 1 / span 2;
 	}
 
+	/* displays bottom left */
 	.video-production {
 		grid-column: 1 / 3;
 		grid-row: 3 / span 2;
 	}
 
+	/* displays bottom middle */
 	.web-development {
 		grid-column: 3 / 5;
 		grid-row: 3 / span 2;
 	}
 
+	/* displays bottom right */
 	.print {
 		grid-column: 5 / 8;
 		grid-row: 3 / span 2;
@@ -821,6 +844,7 @@ td {
 
 	/* --OUR VISION-- */
 
+	/* sets max width, centers */
 	.our-vision-content {
 		max-width: 1200px;
 		margin: auto;
@@ -828,10 +852,12 @@ td {
 
 	/* --OUR TEAM-- */
 
+	/* sets max width */
 	.our-team {
 		max-width: 1200px;
 	}
 
+	/* displays grid, sets max width */
 	.our-team-grid {
 		display: grid;
 		max-width: 1200px;
@@ -839,21 +865,25 @@ td {
 		grid-template-rows: repeat(2, 1fr);
 	}
 
+	/* displays top left */
 	.john-photo {
 		grid-column: 1 / 2;
 		grid-row: 1 / 2;
 	}
 
+	/* displays top right */
 	.john-content {
 		grid-column: 2 / 3;
 		grid-row: 1 / 2;
 	}
 
+	/* displays bottom right */
 	.bob-photo {
 		grid-column: 2 / 3;
 		grid-row: 2 / 3;
 	}
 
+	/* displays bottom left */
 	.bob-content {
 		grid-column: 1 / 2;
 		grid-row: 2 / 3;
@@ -861,10 +891,12 @@ td {
 
 	/* ----CONTACT US---- */
 
+	/* sets max width */
 	.contact-heading {
 		max-width: 1200px;
 	}
 
+	/* displays grid, centers & max width */
 	.contact-us {
 		max-width: 1200px;
 		display: grid;
@@ -872,21 +904,25 @@ td {
 		grid-template-rows: repeat(3, 1fr);
 	}
 
+	/* displays top left */
 	.send-message {
 		grid-column: 1 / 2;
 		grid-row: 1 / 2;
 	}
 
+	/* increases height of input box for message */
 	#message {
 		height: 12rem;
 	}
 
+	/* displays top right */
 	.location {
 		grid-column: 2 / 3;
 		grid-row: 1 / 2;
 		width: 100%;
 	}
 
+	/* displays bottom row */
 	.operation-hours {
 		grid-column: 1 / 3;
 		grid-row: 2 / 3;
@@ -896,9 +932,10 @@ td {
 
 	/* ----FOOTER--- */
 
+	/* sets max width, centers */
 	.footer-content {
 		max-width: 1200px;
 	}
-
-
  }
+
+ /* Thank you Rob for a great semester! See you around & have fun! :) */
