@@ -53,7 +53,7 @@ table {
 
 /* -----------CSS STARTS HERE---------- */
 
-/* ----GENERAL/APPLIES THROUGHOUT---- */
+/* --GENERAL/APPLIES THROUGHOUT-- */
 
 /* website font change */
 h1, h2, h3, body, footer {
@@ -65,7 +65,7 @@ h1, h2, h3, body, footer {
 	margin: 0px auto;
 }
 
-/* sets box-sizing for all elements, restricts*/
+/* sets box-sizing for all elements, restricts within*/
 html{
 	box-sizing: border-box;
   }
@@ -81,13 +81,13 @@ h2 {
 	font-weight: bold;
 }
 
-/* changes h3 font size & bolds */
+/* increases font-size & bolds h3 */
 h3 {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
 
-/* changes font size and increases line-weight of body text */
+/* changes font-size & increases line-weight of body text */
 p {
 	font-size: 0.75rem;
 	line-height: 1rem;
@@ -95,16 +95,19 @@ p {
 
 /*----NAV----*/
 
+/* colours bg and adds padding */
 .nav-wrapper {
 	background-color:#222;
 	padding: 0.5rem;
 }
 
+/* aligns nav headers vertically */
 .nav-content {
 	display: flex;
 	flex-direction: column;
 }
 
+/* colours full bg width of logo*/
 .logo-bg {
 	background-color:#c78c06;
 	width: 100%;
@@ -118,7 +121,7 @@ nav a {
 	font-size: 0.75rem;
 }
 
-/* spaces out nav headers vertically*/
+/* adds padding between nav elements */
 nav ul li {
 	padding: 0.7rem;
 }
@@ -128,12 +131,12 @@ nav  ul  li:nth-child(1){
     background-color: #c78c06;
 }
 
-/* colours "home" text */
+/* colours "home" text black */
 nav ul li:nth-child(1) a {
 	color:#222;
 }
 
-/* widens search bar */
+/* widens & heightens search bar */
 #search {
 	width: 90%;
 	height: 1.5rem;
