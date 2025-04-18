@@ -663,8 +663,7 @@ td {
 		max-width: 1200px;
 		margin: auto;
 		flex-direction: row;
-		justify-content: space-between;
-		align-items: center
+		align-items: center;
 	}
 
 	.logo-bg {
@@ -674,25 +673,26 @@ td {
 	}
 
 	nav {
-		flex: 1;
+		flex: 2;
 	}
 
 	nav ul li {
 		display: inline;
 	}
 
+	nav a {
+		font-size: 1rem;
+	}
+
 	.search-bar {
-		flex: 1;
+		flex: 2;
 		display: flex;
 	}
 
 	#search {
-		width: 80%;
+		width: 70%;
 	}
 
-
-
-	
 	/* ----WELCOME/MAIN---- */
 
 	.welcome-background {
