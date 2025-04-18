@@ -184,10 +184,10 @@ main div p {
 }
 
 /* postion & sizes caret on button */
-.fa-caret-right {
+
+.bttn-connect-caret {
 	color:#222;
-	padding: 10px;
-	font-size: 25px;
+	font-size: 1rem;
 }
 
 /* changes h&w, size, colour of button */
@@ -230,6 +230,9 @@ div.services h2 {
 	padding-top: 2rem;
 } 
 
+.bttn-white-caret {
+	color:white;
+}
 /* -- DIGITAL -- */
 
 /* colours bg, adds margin & padding */
