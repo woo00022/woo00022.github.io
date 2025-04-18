@@ -796,5 +796,17 @@ td {
 		grid-row: 2 / 3;
 	}
 
+	/* ----CONTACT US---- */
+
+	.contact-us {
+		max-width: 1200px;
+		display: grid;
+		grid-template-columns: repeat(2, fr);
+		grid-template-rows: repeat(3, fr);
+	}
+
+	
+	
+	
 
  }
