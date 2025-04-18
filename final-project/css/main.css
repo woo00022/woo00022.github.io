@@ -55,17 +55,17 @@ table {
 
 /* ----GENERAL/APPLIES THROUGHOUT---- */
 
-/* Website font change */
+/* website font change */
 h1, h2, h3, body, footer {
 	font-family: "Open Sans", sans-serif;
 }
 
-/* centers and aligns all elements with a class of .wrapper */
+/* centers & aligns all elements with a class of .wrapper */
 .wrapper {
 	margin: 0px auto;
 }
 
-/* sets box-sizing for all elements*/
+/* sets box-sizing for all elements, restricts*/
 html{
 	box-sizing: border-box;
   }
@@ -75,7 +75,7 @@ html{
 	box-sizing: inherit;
   }
 
-/* changes all h2 font size & bolds */
+/* increases font-size and bolds h2 */
 h2 {
 	font-size: 1.7rem;
 	font-weight: bold;
@@ -751,8 +751,8 @@ td {
 	.services-grid {
 		max-width: 1200px;
 		display: grid;
-		grid-template-columns: repeat(6, fr);
-		grid-template-rows: repeat(5, fr);
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(5, 1fr);
 		
 	}
 
@@ -799,8 +799,8 @@ td {
 	.our-team-grid {
 		display: grid;
 		max-width: 1200px;
-		grid-template-columns: repeat(2, fr);
-		grid-template-rows: repeat(2, fr);
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 	}
 
 	.john-photo {
@@ -832,8 +832,8 @@ td {
 	.contact-us {
 		max-width: 1200px;
 		display: grid;
-		grid-template-columns: repeat(2, fr);
-		grid-template-rows: repeat(3, fr);
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 	}
 
 	.send-message {
